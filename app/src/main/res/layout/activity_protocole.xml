@@ -4,7 +4,7 @@
 
 
     <TextView
-        android:id="@+id/textViewTitle"
+        android:id="@+id/textViewProtocoleTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -15,7 +15,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/textViewTitle"
+        android:layout_below="@id/textViewProtocoleTitle"
         android:layout_marginTop="10dp"
         android:layout_centerInParent="true">
 
@@ -43,8 +43,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:ems="10"
-                android:hint="valeur glucide lent"
-                android:inputType="text" />
+                android:hint="glucide lent"
+                android:inputType="number" />
 
 
 
@@ -56,8 +56,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:ems="10"
-                android:hint="valeur glucide lent"
-                android:inputType="text" />
+                android:hint="glucide rapide"
+                android:inputType="number" />
 
             //Midi
             <TextView
@@ -78,8 +78,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:ems="10"
-                android:hint="valeur glucide lent"
-                android:inputType="text" />
+                android:hint="glucide lent"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/editTextMidiRapide"
@@ -89,8 +89,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:ems="10"
-                android:hint="valeur glucide lent"
-                android:inputType="text" />
+                android:hint="glucide rapide"
+                android:inputType="number" />
 
             //Apres midi
             <TextView
@@ -111,8 +111,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:ems="10"
-                android:hint="valeur glucide lent"
-                android:inputType="text" />
+                android:hint="glucide lent"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/editTextAPRapide"
@@ -122,8 +122,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:ems="10"
-                android:hint="valeur glucide lent"
-                android:inputType="text" />
+                android:hint="glucide rapide"
+                android:inputType="number" />
 
             //Soir
             <TextView
@@ -144,8 +144,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:ems="10"
-                android:hint="valeur glucide lent"
-                android:inputType="text" />
+                android:hint="glucide lent"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/editTextSoirRapide"
@@ -155,18 +155,18 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:ems="10"
-                android:hint="valeur glucide lent"
-                android:inputType="text" />
+                android:hint="glucide rapide"
+                android:inputType="number" />
 
             <Button
-                android:id="@+id/buttonValider"
+                android:id="@+id/buttonValidate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Validation" />
 
-                android:padding="20dp"
-                android:textSize="20dp"
-                android:layout_marginBottom="20dp"
-                android:text="Valider" />
+
         </LinearLayout>
 
     </ScrollView>

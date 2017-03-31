@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         btnProtocoleTransition.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 //String str = eText.getText().toString();
-                Toast msg = Toast.makeText(getBaseContext(),"button clicked",Toast.LENGTH_LONG);
-                msg.show();
+                /*Toast msg = Toast.makeText(getBaseContext(),"button clicked",Toast.LENGTH_LONG);
+                msg.show();*/
 
                 Context context = MainActivity.this;
 
