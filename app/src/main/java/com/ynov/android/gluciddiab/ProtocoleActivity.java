@@ -27,6 +27,18 @@ public class ProtocoleActivity extends AppCompatActivity{
         setContentView(R.layout.activity_protocole);
 
         matinGlucideLent = (EditText) findViewById(R.id.editTextMatinLent);
+        matinGlucideRapide = (EditText) findViewById(R.id.editTextMatinRapide);
+
+        midiGlucideLent = (EditText) findViewById(R.id.editTextMidiLent);
+        midiGlucideRapide = (EditText) findViewById(R.id.editTextMidiRapide);
+
+        gouterGlucideLent = (EditText) findViewById(R.id.editTextAPLent);
+        gouterGlucideRapide = (EditText) findViewById(R.id.editTextAPRapide);
+
+        soirGlucideLent = (EditText) findViewById(R.id.editTextSoirLent);
+        soirGlucideRapide = (EditText) findViewById(R.id.editTextSoirRapide);
+
+
     }
 
 
